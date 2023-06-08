@@ -1,0 +1,61 @@
+Substitution Cipher is:
+Define a substitution mapping that pairs each letter of the alphabet with a unique substitution letter.
+For each letter in the input phrase:
+If the character is a letter, replace it with its corresponding substitution letter.
+If the character is not a letter, simply append it to the ciphered phrase as is.
+Using the cipher, I can encipher the phrase "I love cryptography!" with a substitution mapping:
+Substitution mapping:    
+'A' -> ÔZ'
+'B' -> ÔX'
+'C' -> ÔY'
+É
+'Z' -> ÔAÕ
+For each letter in the input phrase:
+'I': Substitute with ÔR'
+' ': Not a letter, so append it as is.
+'l': Substitute with ÔO'
+'o': Substitute with ÔL'
+'v': Substitute with ÔE'
+'e': Substitute with ÔV'
+' ': Not a letter, so append it as is.
+'c': Substitute with ÔX'
+'r': Substitute with ÔI'
+'y': Substitute with ÔB'
+'p': Substitute with ÔK'
+'t': Substitute with ÔG'
+'o': Substitute with ÔL'
+'g': Substitute with ÔP'
+'r': Substitute with ÔI'
+'a': Substitute with ÔZ'
+'p': Substitute with ÔK'
+'h': Substitute with ÕS'
+'y': Substitute with ÔB'
+'!': Not a letter, so append it as is.
+The ciphered phrase is "R OLEVXV XKLGLIPZI!".
+To decipher, we'll reverse the substitution mapping.
+Substitution mapping (reverse):
+'Z' -> ÔA'
+'X' -> ÔB'
+'Y' -> ÔC'
+É
+'A' -> ÔZ'
+For each letter in the ciphered phrase:
+'R': Substitute with ÔI'
+' ': Not a letter, so append it as is.
+'O': Substitute with ÔL'
+'L': Substitute with ÔO'
+'E': Substitute with ÔV'
+'V': Substitute with ÔE'
+' ': Not a letter, so append it as is.
+'X': Substitute with ÔC'
+'K': Substitute with ÔP'
+'L': Substitute with ÔO'
+'G': Substitute with ÕT'
+'P': Substitute with ÔG'
+'I': Substitute with ÔR'
+'Z': Substitute with ÔA'
+'K': Substitute with ÔP'
+'S': Substitute with ÔH'
+'B': Substitute with ÔY'
+'!': Not a letter, so append it as is.
+The deciphered phrase is "I LOVE CRYPTOGRAPHY!".
